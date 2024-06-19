@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h3 {
+        @apply font-semibold;
+    }
+
+    h4 {
+        @apply font-semibold text-xl;
+    }
+}
+
+input {
+    @apply bg-[#FAF6FF] p-2 border-[#7424DA] border-opacity-5 border-[1px];
+}
